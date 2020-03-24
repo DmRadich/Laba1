@@ -17,16 +17,16 @@ namespace ConsoleApp1
     
         public void add()
         {
+            Console.WriteLine("Введите имя:");
             Name = Console.ReadLine();
+            Console.WriteLine("Введите курс:");
             Kurs = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите пол: ");
             Gender = Console.ReadLine();
         }
         public void Watch()
         {
-
-            Console.Write(" " + Name);
-            Console.Write(" " + Kurs);
-            Console.Write(" " + Gender);
+            Console.WriteLine("Name" + Name + " Kurs: " + Kurs + "Gendre:" + Gender);
         }       
     }
 }
