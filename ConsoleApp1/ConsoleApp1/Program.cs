@@ -10,8 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-         
-
+            Student a = new Student();
+            a.add();
+            a.Watch();
+            Console.ReadKey();
         }
     }
 }
